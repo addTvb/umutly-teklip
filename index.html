@@ -35,21 +35,180 @@
         <link rel="icon" sizes="180x180" href="/img/android-icon-192x192.png" />
         <link rel="apple-touch-icon" href="/img/apple-icon-180x180.png" />
         <link rel="mask-icon" href="/path/to/icon.svg" color="blue" />
-        <!-- * CSS -->
+        <!-- * STyles -->
         <link rel="stylesheet" href="style/normalize.css" />
         <link rel="stylesheet" href="style/index.css" />
+        <link rel="stylesheet" href="style/slider.css" />
         <title>Umutly Teklip</title>
     </head>
     <body>
-        <header>
+        <header class="header">
             <!-- TODO made it <picture> -->
-            <img src="img/logo.png" />
-            <nav>
+            <img src="img/logo.png" class="header__logo" />
+            <nav class="header__nav">
                 <a>ГЛАВНАЯ</a>
                 <a>О КОМПАНИИ</a>
                 <a>НАШИ ПАРТНЕРЫ</a>
                 <a>КОНТАКТЫ</a>
             </nav>
         </header>
+        <main>
+            <!-- * Slideshow container -->
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/work-example-7.jpg" style="width: 100%" />
+                    <div class="text-wrapper">
+                        <p class="text">
+                            Высококвалифицированные, сертифицированные кадры
+                            с<br />
+                            большим опытом работы
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/work-example-2.jpg" style="width: 100%" />
+                    <div class="text-wrapper">
+                        <p class="text">
+                            Полный спектр обслуживаемого оборудования,
+                            гарантии,<br />
+                            оптимальное соотношение цена-качество
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/work-example-3.jpg" style="width: 100%" />
+                    <div class="text-wrapper">
+                        <p class="text">
+                            Наши основные преимущества: качество,<br />
+                            функциональность, гибкость
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- * Company Profile  -->
+            <div class="main-info">
+                <span class="section-title">
+                    <h3>О НАС</h3>
+                </span>
+                <div class="main-info__body">
+                    <p class="main-info__text">
+                        Хозяйственное общество « Умытлы Теклип»- ведущая
+                        компания по сервисному обслуживанию медицинского
+                        оборудования в Туркменистане. Предоставление
+                        квалифицированного сервиса более 10 лет. Является
+                        приоритетным поставщиком сервисных услуг для большинства
+                        медицинских учреждений Туркменистана. Квалифицированный
+                        и сертифицированный персонал
+                    </p>
+                    <img
+                        src="img/logo.png"
+                        alt="Umutly Teklip logo"
+                        class="main-info__logo"
+                    />
+                </div>
+            </div>
+            <!-- * OUR SERVICE -->
+            <div class="service">
+                <h3 class="section-title">НАШИ УСЛУГИ</h3>
+                <div class="service__body">
+                    <span class="service__item">
+                        <span class="service__icon">
+                            <img
+                                src="img/icons/Groupwrench.svg"
+                                alt="Гаечный ключ"
+                            />
+                        </span>
+                        <p class="service__icon-text">
+                            Монтаж и спуско-наладочные работы современного
+                            оборудования
+                        </p>
+                    </span>
+                    <span class="service__item">
+                        <span class="service__icon">
+                            <img src="img/icons/cil_medical-cross.svg" alt="" />
+                        </span>
+                        <p class="service__icon-text">
+                            Поставка медицинского оборудования
+                        </p>
+                    </span>
+                    <span class="service__item">
+                        <span class="service__icon">
+                            <img src="img/icons/cil_medical-cross.svg" alt="" />
+                        </span>
+                        <p class="service__icon-text">
+                            Проектирование и планирование больниц «под ключ»
+                        </p>
+                    </span>
+                    <span class="service__item">
+                        <span class="service__icon">
+                            <img src="img/icons/cil_medical-cross.svg" alt="" />
+                        </span>
+                        <p class="service__icon-text">
+                            Превентивное техническое обслуживание
+                        </p>
+                    </span>
+
+                    <span class="service__item">
+                        <span class="service__icon">
+                            <img src="img/icons/cil_medical-cross.svg" alt="" />
+                        </span>
+                        <p class="service__icon-text">
+                            Обеспечение запасными частями и расходными
+                            материалами
+                        </p>
+                    </span>
+                    <span class="service__item">
+                        <span class="service__icon">
+                            <img src="img/icons/cil_medical-cross.svg" alt="" />
+                        </span>
+                        <p class="service__icon-text">
+                            Технический инструктаж по обслуживанию и
+                            использованию квалифицированными инженерами
+                        </p>
+                    </span>
+                    <span class="service__item">
+                        <span class="service__icon">
+                            <img src="img/icons/cil_medical-cross.svg" alt="" />
+                        </span>
+                        <p class="service__icon-text">
+                            Диагностика неисправностей, ремонт и настройка
+                            оборудования медицинского
+                        </p>
+                    </span>
+                    <span class="service__item">
+                        <span class="service__icon">
+                            <img src="img/icons/cil_medical-cross.svg" alt="" />
+                        </span>
+                        <p class="service__icon-text">
+                            Разработка и внедрение современных цифровых
+                            технологий в медицине
+                        </p>
+                    </span>
+                </div>
+            </div>
+            <!-- * OUR PARTNERS -->
+            <div class="partners">
+                <h3 class="section-title">НАШИ ПАРТНЕРЫ</h3>
+                <div class="partners__body">
+                    <div class="partners__item hospital-1">
+                        <span class="partners__text">text</span>
+                    </div>
+                    <div class="partners__item hospital-2">
+                        <span class="partners__text">text</span>
+                    </div>
+                    <div class="partners__item hospital-3">
+                        <span class="partners__text">text</span>
+                    </div>
+                    <div class="partners__item hospital-4">
+                        <span class="partners__text">text text text text text text text text text text text text text text text text text </span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- * Script for slider -->
+        <script type="text/javascript" src="js/slider.js"></script>
     </body>
 </html>
