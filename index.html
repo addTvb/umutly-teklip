@@ -42,14 +42,16 @@
         <title>Umutly Teklip</title>
     </head>
     <body>
-        <header class="header">
+        <!-- * HEADER -->
+        <header class="header" id="header">
             <!-- TODO made it <picture> -->
             <img src="img/logo.png" class="header__logo" />
             <nav class="header__nav">
-                <a>ГЛАВНАЯ</a>
-                <a>О КОМПАНИИ</a>
-                <a>НАШИ ПАРТНЕРЫ</a>
-                <a>КОНТАКТЫ</a>
+                <a class="third after" href="#header">ГЛАВНАЯ</a>
+                <a class="third after" href="#about-us">О КОМПАНИИ</a>
+                <a class="third after" href="#service">НАШИ УСЛУГИ</a>
+                <a class="third after" href="#partners">НАШИ ПАРТНЕРЫ</a>
+                <a class="third after" href="#footer">КОНТАКТЫ</a>
             </nav>
         </header>
         <main>
@@ -88,7 +90,7 @@
                 </div>
             </div>
             <!-- * Company Profile  -->
-            <div class="main-info">
+            <div class="main-info" id="about-us">
                 <span class="section-title">
                     <h3>О НАС</h3>
                 </span>
@@ -110,7 +112,7 @@
                 </div>
             </div>
             <!-- * OUR SERVICE -->
-            <div class="service">
+            <div class="service" id="service">
                 <h3 class="section-title">НАШИ УСЛУГИ</h3>
                 <div class="service__body">
                     <span class="service__item">
@@ -127,7 +129,11 @@
                     </span>
                     <span class="service__item">
                         <span class="service__icon">
-                            <img src="img/icons/cil_medical-cross.svg" alt="" />
+                            <img
+                                src="img/icons/Vectormedical-equuoment.svg"
+                                alt=""
+                                class="service__icon_equipment"
+                            />
                         </span>
                         <p class="service__icon-text">
                             Поставка медицинского оборудования
@@ -135,7 +141,10 @@
                     </span>
                     <span class="service__item">
                         <span class="service__icon">
-                            <img src="img/icons/cil_medical-cross.svg" alt="" />
+                            <img
+                                src="img/icons/uil_clinic-medical.svg"
+                                alt=""
+                            />
                         </span>
                         <p class="service__icon-text">
                             Проектирование и планирование больниц «под ключ»
@@ -143,7 +152,7 @@
                     </span>
                     <span class="service__item">
                         <span class="service__icon">
-                            <img src="img/icons/cil_medical-cross.svg" alt="" />
+                            <img src="img/icons/Vectorchemodan.svg" alt="" />
                         </span>
                         <p class="service__icon-text">
                             Превентивное техническое обслуживание
@@ -152,7 +161,10 @@
 
                     <span class="service__item">
                         <span class="service__icon">
-                            <img src="img/icons/cil_medical-cross.svg" alt="" />
+                            <img
+                                src="img/icons/Vectormedicine-logo.svg"
+                                alt=""
+                            />
                         </span>
                         <p class="service__icon-text">
                             Обеспечение запасными частями и расходными
@@ -161,7 +173,11 @@
                     </span>
                     <span class="service__item">
                         <span class="service__icon">
-                            <img src="img/icons/cil_medical-cross.svg" alt="" />
+                            <img
+                                src="img/icons/openmoji_man-technologist-light-skin-tone.svg"
+                                alt="Человек с компьютером"
+                                class="service__icon_man"
+                            />
                         </span>
                         <p class="service__icon-text">
                             Технический инструктаж по обслуживанию и
@@ -170,7 +186,10 @@
                     </span>
                     <span class="service__item">
                         <span class="service__icon">
-                            <img src="img/icons/cil_medical-cross.svg" alt="" />
+                            <img
+                                src="img/icons/ic_outline-biotech.svg"
+                                alt=""
+                            />
                         </span>
                         <p class="service__icon-text">
                             Диагностика неисправностей, ремонт и настройка
@@ -179,7 +198,10 @@
                     </span>
                     <span class="service__item">
                         <span class="service__icon">
-                            <img src="img/icons/cil_medical-cross.svg" alt="" />
+                            <img
+                                src="img/icons/gg_smartphone-chip.svg"
+                                alt=""
+                            />
                         </span>
                         <p class="service__icon-text">
                             Разработка и внедрение современных цифровых
@@ -189,7 +211,7 @@
                 </div>
             </div>
             <!-- * OUR PARTNERS -->
-            <div class="partners">
+            <div class="partners" id="partners">
                 <h3 class="section-title">НАШИ ПАРТНЕРЫ</h3>
                 <div class="partners__body">
                     <div class="partners__item hospital-1">
@@ -202,11 +224,48 @@
                         <span class="partners__text">text</span>
                     </div>
                     <div class="partners__item hospital-4">
-                        <span class="partners__text">text text text text text text text text text text text text text text text text text </span>
+                        <span class="partners__text">text </span>
                     </div>
                 </div>
             </div>
+            <!-- * FEEDBACK -->
+            <div class="feedback">
+                <h3 class="section-title">ОБРАТНАЯ СВЯЗЬ</h3>
+                <form action="#" method="POST" class="feedback__form">
+                    <input
+                        type="text"
+                        pattern="/^[a-zA-Zа-яА-Я_ ]+$/"
+                        maxlength="30"
+                        minlength="3"
+                        placeholder="Введите ваше имя"
+                        class="feedback__input"
+                    />
+                    <input
+                        type="text"
+                        pattern="/^[a-zA-Zа-яА-Я_ ]+$/"
+                        maxlength="30"
+                        minlength="3"
+                        placeholder="Название компании"
+                        class="feedback__input"
+                    />
+                    <input
+                        type="tel"
+                        maxlength="12"
+                        minlength="12"
+                        placeholder="+993"
+                        class="feedback__input"
+                    />
+                    <button class="feedback__submit">Отправить</button>
+                </form>
+            </div>
         </main>
+        <!-- * FOOTER -->
+        <footer class="footer" id="footer">
+            <div class="footer__address">ADDRESS</div>
+            <div class="footer__copyright">
+                Umutly Teklip, Copyright 2021. Все права защищены
+            </div>
+        </footer>
 
         <!-- * Script for slider -->
         <script type="text/javascript" src="js/slider.js"></script>
