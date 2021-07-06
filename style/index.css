@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Raleway";
-    src: url(../fonts/Raleway-Medium.ttf);
+    font-display: swap;
+    src: url(../fonts/Raleway-Regular.ttf);
 }
 :root {
     --blue: #0e8ef1;
