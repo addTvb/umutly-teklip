@@ -139,10 +139,37 @@ body {
 }
 .partners__body {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 15rem;
+}
+.partners__img {
+    width: 26rem;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 1px solid var(--white);
+}
+.partners__img:hover {
+    width: 27rem;
+    padding: 1rem;
+    border: 1px solid var(--blue);
+    border-radius: 0.5rem;
+    transition: 0.2s;
+}
+/* CLIENTS */
+.clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clients__body {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.partners__item {
+.clients__item {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -152,7 +179,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1rem;
-    cursor: pointer;
 }
 .hospital-1 {
     background-image: url("../img/hospital-1-tablet.png");
@@ -166,23 +192,8 @@ body {
 .hospital-4 {
     background-image: url("../img/hospital-4-tablet.png");
 }
-.partners__image {
+.clients__image {
     height: 25rem;
-}
-.partners__text {
-    width: 100%;
-    opacity: 0;
-    transition: 0.3s;
-    font-size: 2rem;
-    text-align: center;
-    padding: 1rem;
-    border-radius: 0 0 10px 10px;
-    background-color: rgba(12, 84, 160, 0.6);
-    color: var(--white);
-}
-.partners__item:hover > .partners__text {
-    opacity: 1;
-    transition: 0.2s;
 }
 /* FEEDBACK */
 .feedback {
@@ -231,13 +242,18 @@ body {
     /* align-items: center; */
 }
 .footer__address {
-    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    height: auto;
+    padding: 1rem;
     color: var(--white);
     background-color: #4a4a4a;
 }
 .footer__copyright {
     padding: 1.25rem 0;
-    font-size: 1.3rem;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -259,7 +275,7 @@ body {
         grid-template-columns: 1fr 1fr;
         column-gap: 1rem;
     }
-    .partners__item {
+    .clients__item {
         width: 40rem;
         height: 25rem;
     }
@@ -295,7 +311,7 @@ body {
         width: 4rem;
     }
 
-    .partners__item {
+    .clients__item {
         width: 33rem;
         height: 20rem;
     }
@@ -308,7 +324,7 @@ body {
     .header__logo {
         width: 12rem;
     }
-    .partners__item {
+    .clients__item {
         width: 25rem;
         height: 15rem;
     }
@@ -340,7 +356,7 @@ body {
         width: 15rem;
     }
 
-    .partners__item {
+    .clients__item {
         width: 18rem;
         height: 12rem;
     }
