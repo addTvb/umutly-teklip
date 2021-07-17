@@ -23,7 +23,7 @@ body {
 }
 .move-to-up {
     position: absolute;
-    bottom: 1rem;
+    bottom: -1rem;
     right: 1rem;
     color: var(--white);
     padding: .6rem;
