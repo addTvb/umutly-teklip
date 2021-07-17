@@ -38,7 +38,7 @@
         <!-- Icons -->
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
         <link rel="apple-touch-icon" href="/img/apple-icon-180x180.png" />
-        <!-- * STyles -->
+        <!-- * Styles -->
         <link rel="stylesheet" href="style/normalize.css" />
         <link rel="stylesheet" href="style/slider.css" />
         <link rel="stylesheet" href="style/index.css" />
@@ -48,7 +48,11 @@
         <!-- * HEADER -->
         <header class="header" id="header">
             <!-- TODO made it <picture> -->
-            <img src="img/logo.png" class="header__logo" />
+            <img
+                src="img/logo.png"
+                class="header__logo"
+                alt="Логотип компании 'Umytly Teklip'"
+            />
             <nav class="header__nav">
                 <a class="third after" href="#header">ГЛАВНАЯ</a>
                 <a class="third after" href="#about-us">О КОМПАНИИ</a>
@@ -62,26 +66,36 @@
             <!-- * Slideshow container -->
             <div class="slideshow-container">
                 <div class="mySlides fade">
-                    <img src="img/work-example-7.jpg" style="width: 100%" />
+                    <img
+                        src="img/work-example-7.jpg"
+                        style="width: 100%"
+                        alt="Установка оборудования специалистами 'Умытлы Теклип'"
+                    />
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="img/work-example-2.jpg" style="width: 100%" />
+                    <img
+                        src="img/work-example-2.jpg"
+                        style="width: 100%"
+                        alt="Установка оборудования специалистами 'Умытлы Теклип'"
+                    />
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="img/work-example-3.jpg" style="width: 100%" />
+                    <img
+                        src="img/work-example-3.jpg"
+                        style="width: 100%"
+                        alt="Установка оборудования специалистами 'Умытлы Теклип'"
+                    />
                 </div>
             </div>
             <!-- * Company Profile  -->
             <div class="main-info" id="about-us">
-                <span class="section-title">
-                    <h3>О НАС</h3>
-                </span>
+                <h3 class="section-title">О НАС</h3>
                 <div class="main-info__body">
                     <p class="main-info__text">
                         Хозяйственное общество
-                        <strong>"Umutly Teklip"</strong> - ведущая компания по
+                        <strong>"Umytly Teklip"</strong> - ведущая компания по
                         сервисному обслуживанию медицинского оборудования в
                         Туркменистане. Предоставление квалифицированного сервиса
                         более 10 лет. Является приоритетным поставщиком
@@ -91,7 +105,7 @@
                     </p>
                     <img
                         src="img/logo.png"
-                        alt="Umutly Teklip logo"
+                        alt="Логотип компании 'Umytly Teklip'"
                         class="main-info__logo"
                     />
                 </div>
@@ -100,68 +114,71 @@
             <div class="service" id="service">
                 <h3 class="section-title">НАШИ УСЛУГИ</h3>
                 <div class="service__body">
-                    <span class="service__item">
+                    <div class="service__item">
                         <span class="service__icon">
                             <img
                                 src="img/icons/Groupwrench.svg"
-                                alt="Гаечный ключ"
+                                alt="Иконка гаечного ключа"
                             />
                         </span>
                         <p class="service__icon-text">
                             Монтаж и пуско-наладочные работы современного
                             оборудования
                         </p>
-                    </span>
-                    <span class="service__item">
+                    </div>
+                    <div class="service__item">
                         <span class="service__icon">
                             <img
                                 src="img/icons/Vectormedical-equuoment.svg"
-                                alt=""
+                                alt="Иконка стетоскопа"
                                 class="service__icon_equipment"
                             />
                         </span>
                         <p class="service__icon-text">
                             Поставка медицинского оборудования
                         </p>
-                    </span>
-                    <span class="service__item">
+                    </div>
+                    <div class="service__item">
                         <span class="service__icon">
                             <img
                                 src="img/icons/uil_clinic-medical.svg"
-                                alt=""
+                                alt="Иконка больницы"
                             />
                         </span>
                         <p class="service__icon-text">
                             Проектирование и планирование медицинских учреждений
                             «под ключ»
                         </p>
-                    </span>
-                    <span class="service__item">
+                    </div>
+                    <div class="service__item">
                         <span class="service__icon">
-                            <img src="img/icons/Vectorchemodan.svg" alt="" />
+                            <img
+                                src="img/icons/Vectorchemodan.svg"
+                                alt="Иконка чемодана с инструментами"
+                            />
                         </span>
                         <p class="service__icon-text">
                             Техническое обслуживание медицинского оборудования
                         </p>
-                    </span>
+                    </div>
 
-                    <span class="service__item">
+                    <div class="service__item">
                         <span class="service__icon">
                             <img
                                 src="img/icons/Vectormedicine-logo.svg"
-                                alt=""
+                                alt="Иконка знака медицины"
                             />
                         </span>
                         <p class="service__icon-text">
                             Обеспечение запасными частями и расходными
                             материалами
                         </p>
-                    </span>
-                    <span class="service__item">
+                    </div>
+                    <div class="service__item">
                         <span class="service__icon">
                             <img
                                 src="img/icons/openmoji_man-technologist-light-skin-tone.svg"
-                                alt="Человек с компьютером"
+                                alt="Иконка человека с компьютером"
                                 class="service__icon_man"
                             />
                         </span>
@@ -169,28 +186,31 @@
                             Технический инструктаж по обслуживанию и
                             использованию медицинского оборудования
                         </p>
-                    </span>
-                    <span class="service__item">
+                    </div>
+                    <div class="service__item">
                         <span class="service__icon">
                             <img
                                 src="img/icons/ic_outline-biotech.svg"
-                                alt=""
+                                alt="Иконка микроскопа"
                             />
                         </span>
                         <p class="service__icon-text">
                             Диагностика неисправностей, ремонт и настройка
                             медицинского оборудования
                         </p>
-                    </span>
-                    <span class="service__item">
+                    </div>
+                    <div class="service__item">
                         <span class="service__icon">
-                            <img src="img/icons/med-laptop.svg" alt="" />
+                            <img
+                                src="img/icons/med-laptop.svg"
+                                alt="Иконка ноутбука с медицинским ПО"
+                            />
                         </span>
                         <p class="service__icon-text">
                             Разработка и внедрение современных цифровых
                             технологий в медицине
                         </p>
-                    </span>
+                    </div>
                 </div>
             </div>
             <!-- * OUR PARTNERS -->
@@ -203,7 +223,7 @@
                     >
                         <img
                             src="./img/partners/frezenius.png"
-                            alt="Frezenius Medical Care Logo"
+                            alt="Логотип 'Frezenius Medical Care'"
                             class="partners__img"
                         />
                     </a>
@@ -213,7 +233,7 @@
                     >
                         <img
                             src="./img/partners/denstply-sirona.svg"
-                            alt="Dentsply Sirona Logo"
+                            alt="Логотип 'Dentsply Sirona'"
                             class="partners__img"
                         />
                     </a>
@@ -224,10 +244,26 @@
                 <h3 class="section-title">НАШИ ЗАКАЗЧИКИ</h3>
                 <div class="clients__body">
                     <!-- TODO change for normal picture tag -->
-                    <div class="clients__item hospital-1"></div>
-                    <div class="clients__item hospital-2"></div>
-                    <div class="clients__item hospital-3"></div>
-                    <div class="clients__item hospital-4"></div>
+                    <img
+                        src="../img/hospital-1-tablet.png"
+                        class="clients__item hospital-1"
+                        alt="Международный центр неврологии(Ашхабад)"
+                    />
+                    <img
+                        src="../img/hospital-2-tablet.png"
+                        class="clients__item hospital-2"
+                        alt="Стоматологический центр(Ашхабад)"
+                    />
+                    <img
+                        src="../img/hospital-3-tablet.png"
+                        class="clients__item hospital-3"
+                        alt="Международный центр диагностики и лечения заболеваний головы и шеи(Ашхабад)"
+                    />
+                    <img
+                        src="../img/hospital-4-tablet.png"
+                        class="clients__item hospital-4"
+                        alt="Международный центр лечения глазных болезней(Ашхабад)"
+                    />
                 </div>
             </div>
             <!-- * FEEDBACK -->
@@ -270,6 +306,6 @@
         </footer>
 
         <!-- * Script for slider -->
-        <script type="text/javascript" async src="js/slider.js"></script>
+        <script async src="js/slider.js"></script>
     </body>
 </html>

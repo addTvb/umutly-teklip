@@ -4,7 +4,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: auto;
+    width: auto;
     height: auto;
     position: relative;
     margin: auto;
