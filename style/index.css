@@ -179,7 +179,7 @@ body {
     background-size: cover;
     border-radius: 1rem;
 }
-.hospital-1 {
+/* .hospital-1 {
     background-image: url("../img/hospital-1-tablet.png");
 }
 .hospital-2 {
@@ -190,7 +190,7 @@ body {
 }
 .hospital-4 {
     background-image: url("../img/hospital-4-tablet.png");
-}
+} */
 .clients__image {
     height: 25rem;
 }
