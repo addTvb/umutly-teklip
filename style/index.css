@@ -22,15 +22,19 @@ body {
     font-size: 4rem;
 }
 .move-to-up {
-    position: absolute;
-    bottom: -1rem;
-    right: 1rem;
-    color: var(--white);
-    padding: .6rem;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    padding: .7rem .6rem;
     border: none;
     background-color: var(--blue);
-    border-radius: 100px;
-    font-size: 1.2rem;
+    border-radius: 100rem;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.move-to-up:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 0 4px #4fa4e6;
 }
 
 /* HEADER */
@@ -99,6 +103,7 @@ body {
 }
 .main-info__logo {
     width: 20rem;
+    margin-bottom: 2rem;
 }
 /* SERVICE */
 .service {
