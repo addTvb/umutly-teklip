@@ -50,9 +50,17 @@
         <link rel="stylesheet" href="style/slider.css" />
         <link rel="stylesheet" href="style/index.css" />
         <title>Umutly Teklip</title>
+
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+            crossorigin="anonymous"
+        ></script>
     </head>
     <body>
-        <a href="#header" class="move-to-up"><img src="img/icons/arrow-up.svg"></a>
+        <a href="#header" class="move-to-up"
+            ><img src="img/icons/arrow-up.svg"
+        /></a>
         <!-- * HEADER -->
         <header class="header" id="header">
             <!-- TODO made it <picture> -->
@@ -114,6 +122,7 @@
                         персонал
                     </p>
                     <img
+                        data-tilt
                         src="img/3d-logo.png"
                         alt="Логотип компании 'Umytly Teklip'"
                         class="main-info__logo"
@@ -317,5 +326,6 @@
 
         <!-- * Script for slider -->
         <script async src="js/slider.js"></script>
+        <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
     </body>
 </html>
