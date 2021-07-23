@@ -194,6 +194,7 @@ body {
     margin: 1rem;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 2px solid var(--dark-blue);
     border-radius: 1rem;
 }
 /* .hospital-1 {
