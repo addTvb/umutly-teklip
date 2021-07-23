@@ -47,7 +47,7 @@ body {
 }
 .header__logo {
     width: 16rem;
-    padding: 2rem;
+    margin: 2rem;
 }
 .header__nav {
     width: 100%;
