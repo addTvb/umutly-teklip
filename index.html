@@ -50,17 +50,11 @@
         <link rel="stylesheet" href="style/slider.css" />
         <link rel="stylesheet" href="style/index.css" />
         <title>Umutly Teklip</title>
-
-        <script
-            src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-            crossorigin="anonymous"
-        ></script>
     </head>
     <body>
-        <a href="#header" class="move-to-up"
-            ><img src="img/icons/arrow-up.svg"
-        /></a>
+        <a href="#header" class="move-to-up">
+            <img src="img/icons/arrow-up.svg" alt="Arrow Up" />
+        </a>
         <!-- * HEADER -->
         <header class="header" id="header">
             <!-- TODO made it <picture> -->
@@ -306,6 +300,14 @@
                         class="feedback__input"
                     />
                     <input
+                        type="text"
+                        pattern="/^[a-zA-Zа-яА-Я_ ]+$/"
+                        maxlength="30"
+                        minlength="3"
+                        placeholder="Email"
+                        class="feedback__input"
+                    />
+                    <input
                         type="tel"
                         maxlength="12"
                         minlength="12"
@@ -324,8 +326,18 @@
             </div>
         </footer>
 
-        <!-- * Script for slider -->
+        <!-- * Scripts -->
         <script async src="js/slider.js"></script>
-        <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+            crossorigin="anonymous"
+            async
+        ></script>
+        <script
+            defer
+            async
+            src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"
+        ></script>
     </body>
 </html>

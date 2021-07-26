@@ -197,18 +197,6 @@ body {
     border: 2px solid var(--dark-blue);
     border-radius: 1rem;
 }
-/* .hospital-1 {
-    background-image: url("../img/hospital-1-tablet.png");
-}
-.hospital-2 {
-    background-image: url("../img/hospital-2-tablet.png");
-}
-.hospital-3 {
-    background-image: url("../img/hospital-3-tablet.png");
-}
-.hospital-4 {
-    background-image: url("../img/hospital-4-tablet.png");
-} */
 .clients__image {
     height: 25rem;
 }
