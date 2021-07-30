@@ -54,16 +54,6 @@ hr {
     overflow: visible; /* 2 */
 }
 
-/**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
-   */
-
-pre {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
-}
-
 /* Text-level semantics
      ========================================================================== */
 
@@ -76,64 +66,12 @@ a {
 }
 
 /**
-   * 1. Remove the bottom border in Chrome 57-
-   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
-   */
-
-abbr[title] {
-    border-bottom: none; /* 1 */
-    text-decoration: underline; /* 2 */
-    text-decoration: underline dotted; /* 2 */
-}
-
-/**
    * Add the correct font weight in Chrome, Edge, and Safari.
    */
 
 b,
 strong {
     font-weight: bolder;
-}
-
-/**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
-   */
-
-code,
-kbd,
-samp {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
-}
-
-/**
-   * Add the correct font size in all browsers.
-   */
-
-small {
-    font-size: 80%;
-}
-
-/**
-   * Prevent `sub` and `sup` elements from affecting the line height in
-   * all browsers.
-   */
-
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
-
-sub {
-    bottom: -0.25em;
-}
-
-sup {
-    top: -0.5em;
 }
 
 /* Embedded content
@@ -223,30 +161,6 @@ button:-moz-focusring,
 }
 
 /**
-   * Correct the padding in Firefox.
-   */
-
-fieldset {
-    padding: 0.35em 0.75em 0.625em;
-}
-
-/**
-   * 1. Correct the text wrapping in Edge and IE.
-   * 2. Correct the color inheritance from `fieldset` elements in IE.
-   * 3. Remove the padding so developers are not caught out when they zero out
-   *    `fieldset` elements in all browsers.
-   */
-
-legend {
-    box-sizing: border-box; /* 1 */
-    color: inherit; /* 2 */
-    display: table; /* 1 */
-    max-width: 100%; /* 1 */
-    padding: 0; /* 3 */
-    white-space: normal; /* 1 */
-}
-
-/**
    * Add the correct vertical alignment in Chrome, Firefox, and Opera.
    */
 
@@ -331,14 +245,6 @@ summary {
 
 /* Misc
      ========================================================================== */
-
-/**
-   * Add the correct display in IE 10+.
-   */
-
-template {
-    display: none;
-}
 
 /**
    * Add the correct display in IE 10.

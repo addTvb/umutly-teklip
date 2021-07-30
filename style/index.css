@@ -25,7 +25,11 @@ body {
     position: fixed;
     bottom: 5%;
     right: 5%;
-    padding: .7rem .6rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     background-color: var(--blue);
     border-radius: 100rem;
