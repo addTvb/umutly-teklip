@@ -18,5 +18,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: EditorConfig-Action
-        uses: zbeekman/EditorConfig-Action@v1.1.1
+      - name: Editor Config
+        uses: editorconfig-checker/action-editorconfig-checker@v1
+
