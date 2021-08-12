@@ -8,6 +8,7 @@
     --dark-blue: #0c54a0;
     --milky-white: #fafafa;
     --white: #ffffff;
+    --button-padding: 5px 10px;
 }
 html {
     scroll-behavior: smooth;
@@ -32,9 +33,11 @@ body {
     align-items: center;
     border: none;
     background-color: var(--blue);
+	
     border-radius: 100rem;
     transition: 0.3s;
     text-decoration: none;
+	z-index: 10;
 }
 .move-to-up:hover {
     transition: 0.3s;
