@@ -297,14 +297,15 @@
 				<h3 class="section-title">CONTACT US</h3>
 				<form name="contact-us" class="feedback__form" netlify>
 					<input
+						name="name"
 						type="text"
-						pattern="/^[a-zA-Zа-яА-Я_ ]+$/"
 						maxlength="30"
 						minlength="3"
 						placeholder="Enter your name"
 						class="feedback__input"
 					/>
 					<input
+						name="company-name"
 						type="text"
 						pattern="/^[a-zA-Zа-яА-Я_ ]+$/"
 						maxlength="30"
@@ -313,6 +314,7 @@
 						class="feedback__input"
 					/>
 					<input
+						name="email"
 						type="text"
 						pattern="/^[a-zA-Zа-яА-Я_ ]+$/"
 						maxlength="30"
@@ -321,13 +323,14 @@
 						class="feedback__input"
 					/>
 					<input
+						name="phone"
 						type="tel"
 						maxlength="12"
 						minlength="12"
 						placeholder="Enter your phone number"
 						class="feedback__input"
 					/>
-					<button class="feedback__submit">Sent</button>
+					<button type="submit" class="feedback__submit">Sent</button>
 				</form>
 			</section>
 		</main>
