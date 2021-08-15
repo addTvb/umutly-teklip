@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-    <ShortName>Umutly Teklip</ShortName>
-    <Description>Сайт компании Umutly Teklip</Description>
+    <ShortName>Umytly Teklip</ShortName>
+    <Description>Сайт компании Umytly Teklip</Description>
     <Image height="16" width="16" type="image/x-icon">
     <!-- TODO add a real path to icon -->
     <!-- http://mysite.ru/favicon.ico -->
