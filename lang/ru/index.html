@@ -7,7 +7,6 @@
 		<meta name="theme-color" content="#0e8ef1" />
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <base href="https://umytly-teklip.vercel.app/index.html" />
 		<meta
 			name="description"
 			content="'Umytly Teklip'- Ведущая компания по сервисному обслуживанию медицинского оборудования в Туркменистане"
@@ -36,28 +35,28 @@
 		<link
 			rel="shortcut icon"
 			type="image/x-icon"
-			href="img/favicons/favicon.ico"
+			href="../../img/favicons/favicon.ico"
 		/>
 		<link
 			rel="apple-touch-icon"
-			href="/img/favicons/apple-icon-180x180.png"
+			href="../../img/favicons/apple-icon-180x180.png"
 		/>
 		<!-- * Styles -->
-		<link rel="stylesheet" href="style/normalize.css" />
-		<link rel="stylesheet" href="style/slider.css" />
-		<link rel="stylesheet" href="style/index.css" />
+		<link rel="stylesheet" href="../../style/normalize.css" />
+		<link rel="stylesheet" href="../../style/slider.css" />
+		<link rel="stylesheet" href="../../style/index.css" />
 		<title>Umytly Teklip</title>
 	</head>
 	<body>
 		<a href="#header" class="move-to-up">
-			<img src="img/icons/arrow-up.svg" alt="Вверх" />
+			<img src="../../img/icons/arrow-up.svg" alt="Вверх" />
 		</a>
 		<!-- * HEADER -->
 		<header class="header" id="header">
 			<!-- TODO made it <picture> -->
 			<a href="#header">
 				<img
-					src="img/3d-logo.webp"
+					src="../../img/3d-logo.webp"
 					class="header__logo"
 					alt="Логотип компании 'Umytly Teklip'"
 					width="16rem"
@@ -70,6 +69,15 @@
 				<a href="#partners">НАШИ ПАРТНЕРЫ</a>
 				<a href="#clients">НАШИ ЗАКАЗЧИКИ</a>
 				<a href="#footer">КОНТАКТЫ</a>
+				<div class="lang-menu">
+					<div class="selected-lang ru" onclick="openSelect()">
+						Russian
+					</div>
+					<ul id="lang-select" class="closed-select">
+						<a href="../tm/index.html" class="tm">Turkmen</a>
+						<a href="../../index.html" class="en">English</a>
+					</ul>
+				</div>
 			</nav>
 		</header>
 		<main>
@@ -77,7 +85,7 @@
 			<section class="slideshow-container">
 				<div class="mySlides fade">
 					<img
-						src="img/work-examples/work-example-1.webp"
+						src="../../img/work-examples/work-example-1.webp"
 						style="width: 100%"
 						alt="Установка оборудования специалистами 'Умытлы Теклип'"
 					/>
@@ -85,7 +93,7 @@
 
 				<div class="mySlides fade">
 					<img
-						src="img/work-examples/work-example-2.webp"
+						src="../../img/work-examples/work-example-2.webp"
 						style="width: 100%"
 						alt="Установка оборудования специалистами 'Умытлы Теклип'"
 					/>
@@ -93,7 +101,7 @@
 
 				<div class="mySlides fade">
 					<img
-						src="img/work-examples/work-example-3.webp"
+						src="../../img/work-examples/work-example-3.webp"
 						style="width: 100%"
 						alt="Установка оборудования специалистами 'Умытлы Теклип'"
 					/>
@@ -115,7 +123,7 @@
 					</p>
 					<img
 						data-tilt
-						src="img/3d-logo.webp"
+						src="../../img/3d-logo.webp"
 						alt="Логотип компании 'Umytly Teklip'"
 						class="main-info__logo"
 						width="16rem"
@@ -129,7 +137,7 @@
 					<div class="service__item">
 						<span class="service__icon">
 							<img
-								src="img/icons/Groupwrench.svg"
+								src="../../img/icons/Groupwrench.svg"
 								alt="Иконка гаечного ключа"
 							/>
 						</span>
@@ -141,7 +149,7 @@
 					<div class="service__item">
 						<span class="service__icon">
 							<img
-								src="img/icons/Vectormedical-equuoment.svg"
+								src="../../img/icons/Vectormedical-equuoment.svg"
 								alt="Иконка стетоскопа"
 								class="service__icon_equipment"
 							/>
@@ -153,7 +161,7 @@
 					<div class="service__item">
 						<span class="service__icon">
 							<img
-								src="img/icons/uil_clinic-medical.svg"
+								src="../../img/icons/uil_clinic-medical.svg"
 								alt="Иконка больницы"
 							/>
 						</span>
@@ -165,7 +173,7 @@
 					<div class="service__item">
 						<span class="service__icon">
 							<img
-								src="img/icons/Vectorchemodan.svg"
+								src="../../img/icons/Vectorchemodan.svg"
 								alt="Иконка чемодана с инструментами"
 							/>
 						</span>
@@ -177,7 +185,7 @@
 					<div class="service__item">
 						<span class="service__icon">
 							<img
-								src="img/icons/Vectormedicine-logo.svg"
+								src="../../img/icons/Vectormedicine-logo.svg"
 								alt="Иконка знака медицины"
 							/>
 						</span>
@@ -189,7 +197,7 @@
 					<div class="service__item">
 						<span class="service__icon">
 							<img
-								src="img/icons/openmoji_man-technologist-light-skin-tone.svg"
+								src="../../img/icons/openmoji_man-technologist-light-skin-tone.svg"
 								alt="Иконка человека с компьютером"
 								class="service__icon_man"
 							/>
@@ -202,7 +210,7 @@
 					<div class="service__item">
 						<span class="service__icon">
 							<img
-								src="img/icons/ic_outline-biotech.svg"
+								src="../../img/icons/ic_outline-biotech.svg"
 								alt="Иконка микроскопа"
 							/>
 						</span>
@@ -214,7 +222,7 @@
 					<div class="service__item">
 						<span class="service__icon">
 							<img
-								src="img/icons/med-laptop.svg"
+								src="../../img/icons/med-laptop.svg"
 								alt="Иконка ноутбука с медицинским ПО"
 							/>
 						</span>
@@ -236,7 +244,7 @@
 						href="https://www.freseniusmedicalcare.ru/ru/glavnaja-stranica/"
 					>
 						<img
-							src="./img/partners/frezenius.webp"
+							src="../../img/partners/frezenius.webp"
 							alt="Логотип 'Frezenius Medical Care'"
 							class="partners__img"
 						/>
@@ -248,7 +256,7 @@
 						href="https://www.dentsplysirona.com/ru-ru"
 					>
 						<img
-							src="./img/partners/denstply-sirona.svg"
+							src="../../img/partners/denstply-sirona.svg"
 							alt="Логотип 'Dentsply Sirona'"
 							class="partners__img"
 						/>
@@ -261,22 +269,22 @@
 				<div class="clients__body">
 					<!-- TODO change for normal picture tag -->
 					<img
-						src="./img/hospitals/hospital-1.webp"
+						src="../../img/hospitals/hospital-1.webp"
 						class="clients__item hospital-1"
 						alt="Международный центр неврологии(Ашхабад)"
 					/>
 					<img
-						src="./img/hospitals/hospital-2.webp"
+						src="../../img/hospitals/hospital-2.webp"
 						class="clients__item hospital-2"
 						alt="Стоматологический центр(Ашхабад)"
 					/>
 					<img
-						src="./img/hospitals/hospital-3.webp"
+						src="../../img/hospitals/hospital-3.webp"
 						class="clients__item hospital-3"
 						alt="Международный центр диагностики и лечения заболеваний головы и шеи(Ашхабад)"
 					/>
 					<img
-						src="./img/hospitals/hospital-4.webp"
+						src="../../img/hospitals/hospital-4.webp"
 						class="clients__item hospital-4"
 						alt="Международный центр лечения глазных болезней(Ашхабад)"
 					/>
@@ -330,7 +338,8 @@
 		</footer>
 
 		<!-- * Scripts -->
-		<script async src="js/slider.js"></script>
+		<script async src="../../js/langSelect.js"></script>
+		<script async src="../../js/slider.js"></script>
 		<script
 			src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
 			integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
