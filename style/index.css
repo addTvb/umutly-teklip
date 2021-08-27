@@ -14,7 +14,21 @@ html {
 	scroll-behavior: smooth;
 }
 body {
+	margin: 0;
+	padding: 0;
 	font-family: "Raleway", sans-serif;
+}
+/* Thanks page */
+.thanks-body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.thanks-body__text {
+	margin: 1rem 2rem;
 }
 
 /* Special selectors */
@@ -107,7 +121,7 @@ body {
 	display: inline-block;
 	width: 32px;
 	height: 32px;
-	margin-right: .5rem;
+	margin-right: 0.5rem;
 	background-image: url("../img/lang/en.svg");
 	background-size: contain;
 	background-repeat: no-repeat;

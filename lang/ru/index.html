@@ -293,10 +293,30 @@
 			<!-- * FEEDBACK -->
 			<section class="feedback">
 				<h3 class="section-title">ОБРАТНАЯ СВЯЗЬ</h3>
-				<form action="#" method="POST" class="feedback__form">
+				<form
+					class="feedback__form"
+					name="contact-us"
+					id="feedback-form"
+					method="post"
+					action="https://formsubmit.co/abayew.arslan@gmail.com"
+				>
+					<!-- * formsubmit tags -->
 					<input
+						type="hidden"
+						name="_next"
+						value="http://umytlyteklip.com.tm/lang/ru/thanks.html"
+					/>
+					<input type="hidden" name="_captcha" value="false" />
+					<input type="text" name="_honey" style="display: none" />
+					<input
+						type="hidden"
+						name="_subject"
+						value="Заявка на сайте!"
+					/>
+					<!-- * -->
+					<input
+						required
 						type="text"
-						pattern="/^[a-zA-Zа-яА-Я_ ]+$/"
 						maxlength="30"
 						minlength="3"
 						placeholder="Введите ваше имя"
@@ -304,15 +324,14 @@
 					/>
 					<input
 						type="text"
-						pattern="/^[a-zA-Zа-яА-Я_ ]+$/"
 						maxlength="30"
 						minlength="3"
 						placeholder="Название компании"
 						class="feedback__input"
 					/>
 					<input
-						type="text"
-						pattern="/^[a-zA-Zа-яА-Я_ ]+$/"
+						required
+						type="email"
 						maxlength="30"
 						minlength="3"
 						placeholder="Email"
@@ -320,8 +339,7 @@
 					/>
 					<input
 						type="tel"
-						maxlength="12"
-						minlength="12"
+						minlength="10"
 						placeholder="Введите номер"
 						class="feedback__input"
 					/>

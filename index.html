@@ -7,7 +7,6 @@
 		<meta name="theme-color" content="#0e8ef1" />
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<!-- <base href="https://umytly-teklip.vercel.app/index.html" /> -->
 		<meta
 			name="description"
 			content="'Umytly Teklip'- Leading service company for medical equipment in Turkmenistan"
@@ -17,7 +16,6 @@
 		<meta name="skype_toolbar" content="skype_toolbar_parser_compatible" />
 		<!-- * Google -->
 		<meta name="googlebot" content="index,follow" />
-		<meta name="google" content="notranslate" />
 		<meta name="google" content="notranslate" />
 		<!-- * Geo placement -->
 		<meta name="geo.region" content="TM-S" />
@@ -305,40 +303,68 @@
 			<!-- * FEEDBACK -->
 			<section class="feedback">
 				<h3 class="section-title">CONTACT US</h3>
-				<form name="contact-us" class="feedback__form" netlify>
+				<form
+					class="feedback__form"
+					name="contact-us"
+					id="feedback-form"
+					method="post"
+					action="https://formsubmit.co/abayew.arslan@gmail.com"
+				>
+					<!-- * formsubmit tags -->
 					<input
+						type="hidden"
+						name="_next"
+						value="http://umytlyteklip.com.tm/thanks.html"
+					/>
+					<input type="hidden" name="_captcha" value="false" />
+					<input type="text" name="_honey" style="display: none" />
+					<input
+						type="hidden"
+						name="_subject"
+						value="Заявка на сайте!"
+					/>
+					<!-- * -->
+					<input
+						required
 						name="name"
 						type="text"
-						maxlength="30"
-						minlength="3"
 						placeholder="Enter your name"
 						class="feedback__input"
+						id="form-name"
 					/>
 					<input
-						name="company-name"
+						name="company_name"
 						type="text"
-						maxlength="30"
+						maxlength="35"
 						minlength="3"
 						placeholder="Enter company name"
 						class="feedback__input"
+						id="form-company-name"
 					/>
 					<input
+						required
 						name="email"
-						type="text"
-						maxlength="30"
-						minlength="3"
+						type="email"
+						minlength="6"
 						placeholder="Email"
 						class="feedback__input"
+						id="form-email"
 					/>
 					<input
 						name="phone"
 						type="tel"
-						maxlength="12"
 						minlength="12"
 						placeholder="Enter your phone number"
 						class="feedback__input"
+						id="form-phone"
 					/>
-					<button type="submit" class="feedback__submit">Sent</button>
+					<button
+						class="feedback__submit"
+						id="send-button"
+						type="submit"
+					>
+						Send
+					</button>
 				</form>
 			</section>
 		</main>
