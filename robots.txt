@@ -1,4 +1,4 @@
 User-agent: *
 Crawl-delay: 1
-Host: https://umytly-teklip.netlify.app/
-Sitemap: https://umytly-teklip.netlify.app/sitemap.xml
+Host: https://umutly-teklip.vercel.app/
+Sitemap: https://umutly-teklip.vercel.app/sitemap.xml
