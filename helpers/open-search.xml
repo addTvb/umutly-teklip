@@ -11,7 +11,7 @@
         method="get" 
         xmlns:referrer="http://a9.com/-/opensearch/extensions/referrer/" 
         <!-- TODO add a real domain name -->
-        template="https://umytly-teklip.netlify.app/{searchTerms}"
+        template="https://umytly-teklip.com.tm/{searchTerms}"
     />
     <InputEncoding>UTF-8</InputEncoding>
 </OpenSearchDescription>
