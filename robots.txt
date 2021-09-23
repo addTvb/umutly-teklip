@@ -1,4 +1,4 @@
 User-agent: *
 Crawl-delay: 1
-Host: https://umytly-teklip.com.tm/
-Sitemap: https://umytly-teklip.com.tm/sitemap.xml
+Host: https://umytlyteklip.com.tm/
+Sitemap: https://umytlyteklip.com.tm/sitemap.xml
