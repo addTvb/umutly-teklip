@@ -70,15 +70,26 @@
 				<a href="#partners">НАШИ ПАРТНЕРЫ</a>
 				<a href="#clients">НАШИ ЗАКАЗЧИКИ</a>
 				<a href="#footer">КОНТАКТЫ</a>
+				<!-- Language -->
 				<div class="lang-menu">
-					<div class="selected-lang ru" onclick="openSelect()">
-						Русский
+					<div class="selected-lang" onclick="openSelect()">
+						<img src="../../img/lang/ru.svg" alt="Russian Flag" class="lang-menu__img" />
+						<span> Русский</span>
 					</div>
 					<ul id="lang-select" class="closed-select">
-						<a href="../tm/index.html" class="tm">Turkmen</a>
-						<a href="../../index.html" class="en">English</a>
+						<a href="../tm/index.html" class="lang-menu__item">
+							<img src="../../img/lang/tm.svg" alt="Turkmen Flag" class="lang-menu__img" />
+							<span> Turkmen</span>
+						</a>
+						<a href="../../index.html" class="lang-menu__item">
+							<img src="../../img/lang/en.svg" alt="Great Britain Flag" class="lang-menu__img" />
+							<span> English</span>
+						</a>
 					</ul>
 				</div>
+
+			
+
 			</nav>
 		</header>
 		<main>
@@ -320,14 +331,7 @@
 						type="text"
 						maxlength="30"
 						minlength="3"
-						placeholder="Введите ваше имя"
-						class="feedback__input"
-					/>
-					<input
-						type="text"
-						maxlength="30"
-						minlength="3"
-						placeholder="Название компании"
+						placeholder="Введите ваше имя или название компании"
 						class="feedback__input"
 					/>
 					<input
@@ -344,6 +348,14 @@
 						placeholder="Введите номер"
 						class="feedback__input"
 					/>
+					<textarea
+						class="feedback__input"
+						name="details"
+						id="form-deatils"
+						cols="30"
+						rows="6"
+						placeholder="Детали..."
+					></textarea>
 					<button class="feedback__submit">Отправить</button>
 				</form>
 			</section>
@@ -357,8 +369,6 @@
 		</footer>
 
 		<!-- * Scripts -->
-		<script async src="../../js/langSelect.js"></script>
-		<script async src="../../js/slider.js"></script>
 		<script
 			src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
 			integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
@@ -369,5 +379,7 @@
 			async
 			src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"
 		></script>
+		<script async src="../../js/langSelect.js"></script>
+		<script async src="../../js/slider.js"></script>
 	</body>
 </html>

@@ -113,18 +113,27 @@ body {
 .selected-lang {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	line-height: 2;
 	cursor: pointer;
 	border: 1px solid var(--blue);
 	border-radius: 0.3rem;
 	padding: 0.3rem 0.7rem;
-	transition: 0.5s;
+	transition: 0.2s all;
 }
-.selected-lang:hover {
-	border-radius: 5rem;
-	transition: 0.5s;
+.selected-lang:active {
+	transform: scale(.95);
+	transition: 0.2s all;
 }
-
+.lang-menu__img {
+	width: 2.5rem;
+	margin-right: 4px;
+}
+.lang-menu__item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .closed-select {
 	display: none;
 }
